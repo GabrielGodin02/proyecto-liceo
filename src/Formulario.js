@@ -44,8 +44,17 @@ const Formulario = () => {
           <h4>Genero</h4>
           <input type="radio" value="Masculino" name="genero"></input>
           <label>Masculino</label>
-          <input type="radio" value="Femenino" name="genero"></input>
+          <input type="radio" value="Femenino" name="genero"npm></input>
           <label>Femenino</label>
+        </div>
+        <div>
+          <select className="estado_sivil">
+            <option>Estado Sivil</option>
+            <option>Soltero</option>
+            <option>Casadoro</option>
+            <option>Viudo</option>
+          </select>
+
         </div>
         <button type="SUBMIT">Enviar</button>
       </form>

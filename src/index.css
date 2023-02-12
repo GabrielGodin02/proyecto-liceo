@@ -31,3 +31,13 @@ body{
     padding: 12px;
 
 }
+
+.estado_sivil{
+   position: relative;
+   font-family: Arial;
+   padding: 11px;
+   width: 200px;
+}
+.estado_sivil select{
+    display: none;
+}
