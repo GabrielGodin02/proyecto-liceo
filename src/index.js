@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Formulario from './Formulario';
-import {useHistory} from 'react-router-dom';
+import Login from './Login'
+
 
 ReactDOM.render(
     <React.StrictMode>
@@ -13,9 +14,19 @@ ReactDOM.render(
     document.getElementById('root')
     
 );
-function home(){
-    const history = useHistory();
-    const handleClick =() => history.push('/formulario');
-}
+
+ReactDOM.render(
+    <React.StrictMode>
+        <div className="contenedor">
+            <Login/>
+        </div>
+    </React.StrictMode>,
+    document.getElementById('root')
+    
+);
+
+
+
+
 
 

@@ -19,6 +19,7 @@ body{
 .formulario > div{
     margin-bottom: 20px;
 }
+
 .formulario{
     display: block;
     font-weight: 600px;
@@ -40,4 +41,7 @@ body{
 }
 .estado_sivil select{
     display: none;
+}
+.Login input{
+    padding: 12px;
 }

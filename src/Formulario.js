@@ -51,7 +51,7 @@ const Formulario = () => {
           <select className="estado_sivil">
             <option>Estado Sivil</option>
             <option>Soltero</option>
-            <option>Casadoro</option>
+            <option>Casado</option>
             <option>Viudo</option>
           </select>
 
