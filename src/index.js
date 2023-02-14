@@ -8,6 +8,7 @@ import Login from './Login'
 ReactDOM.render(
     <React.StrictMode>
         <div className="contenedor">
+            <Login/>
             <Formulario />
         </div>
     </React.StrictMode>,
@@ -15,15 +16,6 @@ ReactDOM.render(
     
 );
 
-ReactDOM.render(
-    <React.StrictMode>
-        <div className="contenedor">
-            <Login/>
-        </div>
-    </React.StrictMode>,
-    document.getElementById('root')
-    
-);
 
 
 

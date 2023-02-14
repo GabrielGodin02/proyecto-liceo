@@ -4,47 +4,55 @@ const Formulario = () => {
   return (
     <>
       <form className="formulario">
-        <div>
-          <label htmlFor="nombre">Identificacion </label>
+        <div className="form-item">
           <input
+           required
+           className="input-text"
             type="number"
             id="cedula"
             name="nombre"
-            placeholder="digite su Cedula"
+            
           ></input>
+          <label >Identificacion </label>
         </div>
-        <div>
-          <label htmlFor="nombre">Nombres </label>
+        <div className="form-item">
           <input
+            required
+            className="input-text"
             type="text"
             id="nombre"
             name="nombre"
-            placeholder="digite su nombres"
+            
           ></input>
+           <label>Nombres </label>
         </div>
-        <div>
-          <label htmlFor="nombre">Apellidos </label>
+        <div className="form-item">
           <input
+            required
+            className="input-text"
             type="text"
             id="Apellidos"
             name="apellido"
-            placeholder="digite sus Apellidos"
+            
           ></input>
+          <label>Apellidos </label>
         </div>
-        <div>
-          <label htmlFor="telefono">Telefono </label>
+        <div className="form-item">
           <input
+            required
+            className="input-text"
             type="number"
             id="telefono"
             name="telefono"
-            placeholder="digite su telefono"
+            
           ></input>
+          <label>Telefono </label>
         </div>
         <div>
           <h4>Genero</h4>
-          <input type="radio" value="Masculino" name="genero"></input>
+          <input type="radio" value="Masculino" name="genero" ></input>
           <label>Masculino</label>
-          <input type="radio" value="Femenino" name="genero"npm></input>
+          <input type="radio" value="Femenino" name="genero"></input>
           <label>Femenino</label>
         </div>
         <div>

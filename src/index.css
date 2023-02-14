@@ -19,6 +19,22 @@ body{
 .formulario > div{
     margin-bottom: 20px;
 }
+.texto{
+    margin-left: 34px;
+}
+
+.form-item label{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -175px;
+    transition: 0.7s;
+}
+.form-item .input-text:focus+label,.form-item .input-text:valid+label{
+    color: black;
+    margin-top: -15px;
+    
+}
+    
 
 .formulario{
     display: block;
@@ -29,9 +45,11 @@ body{
 
 }
 .formulario input{
-    padding: 12px;
+    padding: 8px;
+    margin-top: 10px;
 
 }
+
 
 .estado_sivil{
    position: relative;
@@ -41,6 +59,11 @@ body{
 }
 .estado_sivil select{
     display: none;
+    border: none;
+}
+.estado_sivil{
+    background-color: transparent;
+    
 }
 .Login input{
     padding: 12px;
